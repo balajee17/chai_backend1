@@ -7,6 +7,8 @@ dotenv.config({
   path: "./env",
 });
 
+//lecture no - 10 - 13:36
+
 connectDB()
   .then(() => {
     app.listen(process.env.PORT || 8000, () => {
