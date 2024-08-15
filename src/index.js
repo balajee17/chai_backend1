@@ -5,10 +5,11 @@ import connectDB from "./db/index.js";
 import { app } from "./app.js";
 
 dotenv.config({
-  path: "./env",
+  path: "./.env",
 });
 
-//start lecture no - 13 - 00:00
+//start lecture no - 15 - 19:00
+
 
 connectDB()
  app.listen(process.env.PORT, ()=>{
