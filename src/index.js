@@ -8,13 +8,12 @@ dotenv.config({
   path: "./.env",
 });
 
-//start lecture no - 15 - 19:00
+//start lecture no - 17 - 11:00
 
-
-connectDB()
- app.listen(process.env.PORT, ()=>{
-  console.log(`server is running on ${process.env.PORT}`)
- })
+connectDB();
+app.listen(process.env.PORT, () => {
+  console.log(`server is running on ${process.env.PORT}`);
+});
 
 /*
 import express from "express";
